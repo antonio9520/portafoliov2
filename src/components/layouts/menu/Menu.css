@@ -1,0 +1,28 @@
+.menu-cont {
+  position: relative;
+}
+
+.menu-page {
+  background: rgb(255, 255, 0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  z-index: 9;
+  padding: 30px 30px;
+  transition: 1s;
+}
+
+.active {
+  top: -85vh;
+  background: rgba(255, 0, 0, 0.247);
+}
+.menu-page button {
+  height: 30px;
+  width: 50px;
+}

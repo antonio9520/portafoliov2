@@ -1,0 +1,17 @@
+.about-container {
+  display: inline-block;
+  background: hsl(120, 40%, 70%);
+  height: 100vh;
+  right: -100%;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.about-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
